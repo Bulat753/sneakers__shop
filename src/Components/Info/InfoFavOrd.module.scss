@@ -1,0 +1,52 @@
+.cartEmpty{
+      width: 290px;
+      height: 278px;
+      position: relative;
+     margin: 0 360px;
+      text-align: center;
+    .empty{
+      position: relative;
+      img{
+        width: 70px;
+        height: 70px;
+      }
+      p{
+        width: 250px;
+        margin: 24px auto
+      }
+      .empty__p{
+        width: 290px;
+      }
+
+    }
+    .emptyButton{
+      position: relative;
+      display: flex;
+      justify-content: center;
+      margin-bottom: 30px;
+      margin: 40px 0 0 0;
+      button{
+          width: 325px;
+          height: 55px;
+          background: #9DD558;
+          border-radius: 18px;
+          font-family: 'Inter';
+          font-size: 16px;
+          text-align: center;
+          color: #FFFFFF;
+          position: relative;
+          &:hover{
+            opacity: 0.8;
+          }
+          &:active{
+            background-color: rgba(0, 0, 0, 0.5);
+            box-shadow: 10px 7px 2px 2px rgba(0, 0, 0, 0.8);
+          }
+          img{
+        position: absolute;
+        right: 30px;
+        top:19px;
+      }
+    }  
+  }
+}

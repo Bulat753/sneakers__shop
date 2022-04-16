@@ -1,0 +1,28 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 45px 69px 45px 45px;
+    border-bottom: 1px solid #EAEAEA;
+
+
+.headerLeft{
+display: flex;
+align-items: center;
+img{
+margin: 0 16px 0 0
+}
+h3,p{
+margin: 0;
+}
+}
+.headerRight{
+display: flex;
+align-items: center;
+p{
+margin: 0 30px 0 10px;
+}
+.imgOrders{
+margin: 0 0 0 36px;
+}
+}
+}
